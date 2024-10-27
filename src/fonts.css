@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Test Founders Grotesk';
+    src: url('./assets/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('./assets/fonts//NeueMontreal-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+  

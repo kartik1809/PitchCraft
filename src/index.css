@@ -1,0 +1,38 @@
+@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.masker h1{
+    height: 1em;
+    overflow: hidden;
+    animation: reveal 5s 0s;
+}
+
+.hero-reveal{
+    display: none;
+    animation: heroReveal 2s 0s;
+}
+
+@keyframes reveal {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes heroReveal {
+    0% {
+        display: inline;
+        width: 0;
+    }
+    100% {
+        width: 110px;
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
