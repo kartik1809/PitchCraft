@@ -7,7 +7,7 @@ const LandingPage = () => {
         setReveal(true)
     }, 2000);
     return (
-        <div className='pt-[70px] h-screen w-full'>
+        <div data-scroll data-scroll-section data-scroll-speed="-0.3" className='bg-zinc-900 pt-[70px] h-screen w-full'>
             <div className='textstructure px-10 py-24'>
                 <div className='masker'>
                     <h1 className='uppercase leading-[4vw] whitespace-nowrap font-["Test_Founders_Grotesk"] text-8xl'>Empowering Ambitious</h1>

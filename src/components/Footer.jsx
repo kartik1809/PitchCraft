@@ -4,7 +4,7 @@ import logo from '../assets/pitchCraft.svg'
 const Footer = () => {
     return (
         <>
-            <div className='w-full h-screen min-h-screen flex pt-0 p-10'>
+            <div className='w-full h-screen min-h-screen flex pt-0 p-10  bg-zinc-900'>
                 <div className='relative w-1/2 h-full'>
                     <div className='flex flex-col leading-none'>
                         <h2 className='font-["Test_Founders_Grotesk"] text-[8vw] uppercase'>Eye-</h2>
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className='w-full flex pr-10'>
+            <div className='w-full flex pr-10  bg-zinc-900'>
                 <div className='w-1/2'>
                     <img className='p-10 pt-0 w-[14vw]' src={logo} alt="PitchCraft" />
                 </div>
